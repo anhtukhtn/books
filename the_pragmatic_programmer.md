@@ -13,7 +13,7 @@
 
 ## Chaper 1: A Pragmatic Philosophy
 
-### 1. The Cat Ate My Source Code
+### The Cat Ate My Source Code
 One of the cornerstones of the pragmatic philosophy is the idea of taking respnsibility for yourself and your actions.
 
 #### Take Responsibility
@@ -31,6 +31,20 @@ Before you go and tell them the bad news, is there anything else you can try? In
 
 Don't say it can't be done; explain what can be done to salvage the situation.
 How to prevent it from happening again? 
+
+### Software Entropy
+
+Don't live with Broken Windows. Fix each one as soon as it is discovered.
+
+Take some action to prevent further damage and to show that you're on top of the situation.
+
+### Good-Enough Software
+
+You can discipline yourself to write software that's good enough-good enough for yours users, for future maintainers, for your own peace of mind.
+
+#### Know when to stop
+
+Dont' spoil a perfectly good program by overrembellishment and overrefinement. Move on, and let your code stand in its own right for a while.
 
 
 ## Chaper 6: While you are coding

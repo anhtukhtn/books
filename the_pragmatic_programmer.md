@@ -46,6 +46,60 @@ You can discipline yourself to write software that's good enough-good enough for
 
 Dont' spoil a perfectly good program by overrembellishment and overrefinement. Move on, and let your code stand in its own right for a while.
 
+### Your Knowledge Porfolio
+
+Your knowledge and experience are your most important professional assets.
+
+Unfortunately, they're expiring assets. Your knowledge becomes out of date as new techniques, languages, and evironments are developed.
+
+#### Goals
+
+- Learn at least one new language every year
+- Read a technical book each quater
+- Read nontechnical books, too
+- Take classes
+- Participate in local user groups
+- Experiment with different environments
+- Stay current
+- Get wired
+
+#### Critical thinking
+
+Think critically about what you read and hear
+
+### Communicate
+
+We have to communicate on many levels. We spend hours in meetings, listening and talking. A large part of oour day is spent communicating, so we need to do it well.
+
+#### Know what you want to say
+Plan what you want to say. Write an outline. Then ask yourself, "Does it get acroos whatever I'm trying to say?". Refine it until it does.
+
+#### Know your audience
+You need to understand the needs, interests, and capabilities of your audien.
+
+#### Choose your momment
+
+As part of understand what your audience needs to hear, you need to work out what their priorities are.
+Make what you're saying relevent in time, as well as in content. 
+
+Sometimes all it takes is a simple question: "Is this a good time to talk about...?"
+
+#### Choose a style
+
+Adjust the style of your delivery to suit your audience: briefing, wide-ranging chat, reports, documents... If in doubt, ask
+
+#### Make it look good
+
+Your ideas are importent. They deserve a good-looking vehicle to convey them to your audience
+
+#### Imvolve your audience
+If possible, involve your readers with early drafts of your document
+
+#### Be a listener
+If you want people to listen to you, listen to them.
+
+#### Get back to people
+Always respond to e-mails and voice mails, even if the response is simply
 
 ## Chaper 6: While you are coding
 
@@ -68,3 +122,9 @@ It's easy to assume that X causes Y. DON'T ASSUME it, prove it.
 - Proceed from a plan, whether that plan is in your head, on the back of the cocktail napkin, or on a wall-sized
 - Rely on reliable things
 - Dont be a salve to history
+
+### Algorithm Speed
+
+There is a kind of estimating that programmers use almost daily: estimating the resources that algorithms use - time, processor, memory, and so on.
+
+It's a good idea to make sure an algorithm really is a bottleneck before investing your precious time trying to improve it.

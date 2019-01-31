@@ -101,6 +101,23 @@ If you want people to listen to you, listen to them.
 #### Get back to people
 Always respond to e-mails and voice mails, even if the response is simply
 
+
+## Chapter 2: A Pragmatic Approach
+
+### The evils of duplication
+
+As programmers, we collect, organize, maintain, harness knowledge. Unfortunately, knowledge isn't stable. It changes-often rapidly. It means we spend a large part of time in maintenance mode.
+Programmers are constantly in maintenance mode day by day.
+
+DRY: Eeach piece of knowledge must have a single, umambiguous, authoritative representation within a system
+
+#### How does duplication arise?
+- **Imposed duplication**: Developers feel they have no choice-the enviroments seems to require duplication
+- **Inadvertent duplication**: Developers don't realize that they are duplicating information
+- **Impatient duplication: Developers get lazy and duplicate because it seems easire**
+- **Interdevelop duplication**: Many peole on a team(or orther teams) duplicate a peace of information
+
+
 ## Chaper 6: While you are coding
 
 Avoid programming by coincidence-replying on luck and accidental successes-in favor of programming deliberately

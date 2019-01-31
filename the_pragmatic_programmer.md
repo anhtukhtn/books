@@ -117,6 +117,30 @@ DRY: Eeach piece of knowledge must have a single, umambiguous, authoritative rep
 - **Impatient duplication: Developers get lazy and duplicate because it seems easire**
 - **Interdevelop duplication**: Many peole on a team(or orther teams) duplicate a peace of information
 
+### Orthogonality
+
+Two or more things are orthogonal if changes in one do not effect any of the others.
+
+Eliminate effects between unreleated things
+
+#### Gain productivity
+- Changes are localized
+- Promotes reuse
+- Gain productivity when you combine orthogonal components
+#### Reduce risk
+- Diseased sections are isolated
+- The resulting system is less fragile
+- Be better tested
+- Tighly tied to a particular vendor 
+
+#### Coding
+Everytime you write code you run the risk of reducing the orthogonality of your application
+
+Maintain orthogonality:
+- Kepp your code decoupled
+- Avoid global data
+- Avoid similar functions
+
 
 ## Chaper 6: While you are coding
 

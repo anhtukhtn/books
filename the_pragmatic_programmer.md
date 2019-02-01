@@ -141,8 +141,44 @@ Maintain orthogonality:
 - Avoid global data
 - Avoid similar functions
 
+## Chapter 3: The Basic Tools
+Every craftsman starts his or her journey with a basic set of good-quality tools 
+Each tool will have its own personality and quirks, and will need its own special handling.
+Each must be sharpened in a unique way or held just so. 
 
-## Chaper 6: While you are coding
+
+Many programmers make the mistake of adopting a single power tool, such as a particular integrated development environment, and never leave its cozy interface. This really is a mistake.
+
+### The power of plain text
+As programmers, our base material isn't woord or iron, it's knowledge.
+And we believe the best format for storing knowledge is plain text.
+#### What is plain text?
+Plain text is made up of printable characters in a format that can be read and understood directly by people.
+You can do everything with plain text that you could do with some binary format, including versioning.
+Plain text tend to be higher level than a straight binary encoding, which usually derived directly from implementation.
+
+#### Drawbacks
+
+There are 2 major drawbacks to using plain text: 
+- It may take more space to store than a compressed binary format
+- It may be computatioanlly more expensive to interpret and process a plain text file
+
+#### The power of text
+- Insurance againts obsolesence
+- Leverage
+- Easier testing
+
+
+### Shell game
+
+GUI interfaces are wonderful. But if you do all your work using GUI, you are missing out on the capabilities of your environment. You won't be able to automate common tasks, or use the full power of the tools available to you.
+
+
+A benifit of the GUI is WYSIWYG-What you see is what you get. The disadvantage of the GUI is WYSIAYG-What you see is all you get.
+
+The shell is your friend.
+
+## Chapter 6: While you are coding
 
 Avoid programming by coincidence-replying on luck and accidental successes-in favor of programming deliberately
 

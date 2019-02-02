@@ -178,6 +178,43 @@ A benifit of the GUI is WYSIWYG-What you see is what you get. The disadvantage o
 
 The shell is your friend.
 
+### Debugging
+> SELECT isn't broken
+
+It is a painful thing. To look at your own trouble and know that you yourself and no one else has made it.
+
+#### Psychology of debugging
+
+Embrace the fact that debugging is just a problem solving, and attack it as such.
+
+It doesn't master whatever the bug is your fault or someone else's. It is still your problem.
+
+Fix the problem, not the blame.
+
+#### A debugging mindset
+
+The first rule of the debugging: Don't Panic
+
+Before starting debugging, turn off many of the defenses you use each day to protect your ego, turn out any project pressures you maybe under, and get yourself comfortable
+
+If your first reaction on witness a bug or seeing a report is "that's impossible", you are plainly wrong. Don't waste a single neuron on the train of thought that begins with "but that can't happen" because quite clearly it can and has.
+
+
+#### Where to start
+
+Make sure you are working on code that compiled cleanly - without warnings. Set compiler warning level as high as possible. It doesn't make sense to waste time trying to find the problem that compiler could find. We need to concentrate on the harder problem at hand.
+
+Unfortunately, bug reporting isn't an exact science. It's easy to be misled by coincidences, and you can't affort to waste time debugging coincidences. First, need to be accurate in your observations.
+
+#### Debugging strategies
+
+Once you think you know what is going on, it's time to find out what the program thinks is going on.
+
+- Visualize your data: get a good look at the data it is operation on
+- Tracing: watch the state of the program over time.
+- Rubber ducking: explain it to someone else
+- Process of elimination: **SELECT isn't broken**
+
 ## Chapter 6: While you are coding
 
 Avoid programming by coincidence-replying on luck and accidental successes-in favor of programming deliberately

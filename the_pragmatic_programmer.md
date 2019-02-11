@@ -252,9 +252,6 @@ We do this by adopting a general rule: program for the general cases, and put th
 
 Define most details untils the last moment, and leave the details as soft as posible.
 
-
-
-
 ## Chapter 6: While you are coding
 
 Avoid programming by coincidence-replying on luck and accidental successes-in favor of programming deliberately
@@ -282,3 +279,13 @@ It's easy to assume that X causes Y. DON'T ASSUME it, prove it.
 There is a kind of estimating that programmers use almost daily: estimating the resources that algorithms use - time, processor, memory, and so on.
 
 It's a good idea to make sure an algorithm really is a bottleneck before investing your precious time trying to improve it.
+
+### Refactoring
+
+> Change and decay in all around I see
+
+As a program evolves, it will become neceessary to rethink earlier decisions and rework portions of the code. The progress is perfectly natural.
+
+### Evil Wizards
+
+Don't use wizard code you don't understand

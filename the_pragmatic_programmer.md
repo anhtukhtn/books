@@ -215,6 +215,46 @@ Once you think you know what is going on, it's time to find out what the program
 - Rubber ducking: explain it to someone else
 - Process of elimination: **SELECT isn't broken**
 
+## Chapter 4: Pragmatic paranoia
+
+You can't write perfect software
+
+The analogy with coding is pretty obvious. So we are taught to code defensively. If there are any doubt, we validate all information we're given.
+
+## Chapter 5: Bend, or Break
+
+Life doesn't stand still.
+In order keep up with today's near-frantic pace of change, we need to write code that as loose - ass flexible - as posible. Otherwise, we may findout code quickly becoming outdated.
+
+### Decoupling and the Law of the Demeter
+#### Minimizie coupling
+Need to be carefule how many other modules you interact with, and more importantly, how you came to interact with them.
+
+### Metaprogramming
+
+Everytime we have to go in and change the code to accommodate some change in business logic, we run the risk of breaking the system - of introducing a new bug.
+
+So we say "out of the details", get them out of the code. While we're at it, we can make our code highly configurable and "soft"-that is easily adaptable to changes.
+
+#### Dynamic configuration
+
+We want to make our systems highly configutable. Not just things such as texts, colors, but deeply ingranted items such as algorithms, database products, middleware technology,...
+> Configure, don't integrate
+
+Use metadata to describe configuration options.
+
+#### Metadata-Driven Application
+
+Our goal is to think declaratively, and create highly dynamic and adaptable programs. 
+We do this by adopting a general rule: program for the general cases, and put the specific somewhere else - outside the compiled code base
+
+> Put abstractions in code, details in metadata
+
+Define most details untils the last moment, and leave the details as soft as posible.
+
+
+
+
 ## Chapter 6: While you are coding
 
 Avoid programming by coincidence-replying on luck and accidental successes-in favor of programming deliberately

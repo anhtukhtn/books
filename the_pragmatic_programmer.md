@@ -1,4 +1,6 @@
-# The Pragmatic Programmer
+# The Pragmatic Programmer - by Andrew Hunt, David Thomas
+
+*This is a highlight and summary content for the parts that I like*
 
 ## PREFACE
 ### What Makes a Pragmatic Programmer?
